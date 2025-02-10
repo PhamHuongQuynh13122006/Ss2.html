@@ -6,23 +6,20 @@
     <title>Document</title>
 </head>
 <body>
-    <form action = "https://api.gateway.com" method="POST">
-        <label for="name">Họ và tên:</label>
-        <input type="text" id="name" name="name" required>
-        <br/>
-        <lable for="date">Chọn ngày giờ: </lable>
-        <input type="datetime-local" id="date" name=""date>
-        <br>
-        <label for="service">Loại dịch vụ:</label>
-        <select id="service" name="service">
-            <option value="advice">Tư vấn</option>
-            <option value="follow">Theo dõi</option>
-        </select>
-        <br>
-        <label>Ghi chú:</label>
-        <textarea id="empty" name="empty" rows="5" cols="20" required></textarea>
-        <br>
-        <button>Đặt lịch</button>
-    </form>
+   <table border="1">
+        <tr align ="center">
+            <th colspan="2">Thông Tin Cá Nhân</th>
+        </tr>
+        <tr>
+            <td>Họ Tên</td>
+            <td>Nguyễn A</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Địa Chỉ</td>
+            <td>Hà Nội</td>
+        </tr>
+        <tr align ="center">
+            <td>Hồ Chí Minh</td>
+    </table>
 </body>
 </html>
